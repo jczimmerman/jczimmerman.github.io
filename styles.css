@@ -1,55 +1,81 @@
+/** GENERAL STYLES **/
+/** disabling all for now to start with smaller scale **/
+/*
 * {
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body, html {
+body,
+html,
+main {
   height: 100%;
   background-color: #181a1b;
 }
 .header {
   height: 100%;
+}
+.header-pic {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
-  /* background */
-  background-image: url(../pictures/background.jpg);
+  /* background * <
+  background-image: url(pictures/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-heading {
-  color: white;
+  color: #3e363761;
   font-weight: 600;
   font-size: 100px;
   font-family: 'Teko', sans-serif;
-  position: relative;
-  top: -60px;
+  margin-bottom: 0px;
+
+  /* text outline * <
+  text-shadow: #ADB8B6 2px 2px;
 }
 .nav-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0 10px 0 10px;
+
 }
 .nav-container li {
   list-style: none;
 }
 .nav-container li a {
-  color: white;
+  color: gray;
   text-decoration: none;
-
-  /* button look */
-  background-color: rgba(232, 209, 204, 0.25);
-  border: thin solid darkgray;
-  border-radius: 2px;
-  padding: 10px;
 }
 .nav-container li a:hover {
-  background-color: rgba(214, 193, 188, 0.50);
+  font-weight: 800;
 }
 .nav-bar {
   width: 30%;
-  padding: 10px;
+
+  /* Top and bottom borders* <
+  border-top: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+
+  /* Background * <
+  background-color: rgba(0, 0, 0, 0.2)
+}
+*/
+/** MOBILE STYLES **/
+@media only screen and (max-width: 400px){
+
+}
+
+/** TABLET STYLES **/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+}
+
+/** DESKTOP STYLES **/
+@@media only screen and (min-width: 961px){
+
 }
