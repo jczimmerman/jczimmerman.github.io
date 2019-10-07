@@ -3,21 +3,21 @@
 
 <head>
 
-  <link href="https://fonts.googleapis.com/css?family=Teko&display=swap"
-   rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
-  <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   <title>Joe's Portfolio</title>
 
 </head>
 
 <body>
+  <main>
 
-  <header class="header">
-    <section class="header-pic">
-      <h1 class="main-heading">Joseph Zimmerman</h1>
+    <!-- HOME AREA -->
+    <section class="home-content">
+
+      <h1 class="home-heading">&lt;Joseph Zimmerman&gt;</h1>
 
       <nav class="nav-bar">
         <ul class="nav-container">
@@ -27,45 +27,50 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <img class="home-pic" src="pictures/picture.jpg" alt="Picture of Joseph Zimmerman.">
+
+      <h2 class="home-info">Hi, my name is Joseph. This is my portfolio site. Below you
+        will find out who I am, what skills I offer, what projects I have
+        completed, and the most efficient way to get into contact with me.</h2>
     </section>
 
-    <section class="prelude">
-      <h2>Hi, my name is Joseph. This is my portfolio site. Below you
-      will find out who I am, what skills I offer, what projects I have
-      completed, and the most efficient way to get into contact with me.</h2>
-    </section>
-
-  </header>
-
-  <main>
-    <article id="intro">
+    <!-- INTRO AREA -->
+    <article id="intro" class="intro-content">
 
       <h2>Hey!</h1>
-      <p>I am Joey. I am 20 years old, born and raised in Willow Street,
-      Pennsylvania. I am the youngest of four siblings. I have 2 older sisters
-      and 1 older brother. I am a student at Thaddeus Stevens, currently
-      enrolled in the Computer Software Engineering Technologies program.
-      Ever since I was a little kid, I wanted to be a software developer.
-      I believe my love for technology and computers started when I was
-      a young boy. I remember sitting infront of our big clunky Windows
-      PC for hours just messing around with anything I could find because it was
-      so intriguing to me. That same interest and love for technology
-      still resides in me today.</p>
+        <p>I am Joey. I am 20 years old, born and raised in Willow Street,
+          Pennsylvania. I am a student at Thaddeus Stevens, currently
+          enrolled in the Computer Software Engineering Technologies program.
+          Ever since I was a little kid, I wanted to be a software developer.
+          I believe my love for technology and computers started when I was
+          a young boy. I remember sitting infront of our big clunky Windows
+          PC for hours just messing around with anything I could find, and trying
+          to figure out how it worked because it was so intriguing to me. I
+          still have that same passion and drive for learning about technology
+          today.</p>
 
+        <p>Going to Thaddeus Stevens has been an awesome privilege. I've
+          never been more excited about going to a class and learning. I'm
+          very excited to see where my path after this program leads me.</p>
     </article>
 
-    <article id="skills">
+    <!-- SKILLS AREA -->
+    <article id="skills" class="skills-content">
 
       <h2>What skill I offer</h2>
-      <p>Only a couple weeks into my progam, I currently have a solid foundation
-      of understanding for the command line, the use of git and how to react
-      when running into certain situations with git, how to write semantic HTML,
-      and a solid groundwork of CSS.
-      </p>
+      <ul>
+        <li>A solid understanding of git and GitHub.</li>
+        <li>An understanding of a number of workflows.</li>
+        <li>How to write semantic HTML.</li>
+        <li>A solid foundation of CSS.</li>
+        <li>A basic understanding of the Command line.</li>
+      </ul>
 
     </article>
 
-    <article id="projects">
+    <!-- PROJECTS AREA-->
+    <article id="projects" class="projects-content">
       <h2>My Projects</h2>
 
       <section>
@@ -77,18 +82,14 @@
       </section>
     </article>
 
-    <article id="contact">
+    <!-- CONTACT AREA -->
+    <article id="contact" class="contact-content">
       <h2>How to contact me</h2>
       <p>If you have any questions, feel free to shoot me an email and I'll
-      get back to you as soon as possible.</p>
+        get back to you as soon as possible.</p>
       <p>joeyzimmerman17@gmail.com</p>
     </article>
   </main>
-
-  <footer>
-
-  </footer>
-
 </body>
 
 </html>
