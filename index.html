@@ -17,30 +17,37 @@
     <!-- HOME AREA -->
     <section class="home-content">
       <div class="home-heading-container">
-        <h1 class="home-heading">&lt;Joseph Zimmerman&gt;</h1>
+        <h1 class="home-heading">Joseph Zimmerman</h1>
+        <p class="home-subheading">Aspiring programmer</p>
       </div>
-      <nav class="nav-bar">
-        <ul class="nav-container">
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
 
-      <img class="home-pic" src="pictures/picture.jpg" alt="Picture of Joseph Zimmerman.">
+      <section class="home-organization">
+        <img class="home-pic" src="pictures/picture.jpg" alt="Picture of Joseph Zimmerman.">
 
-      <h2 class="home-info">Hi, my name is Joseph. This is my portfolio site. Below you
-        will find out who I am, what skills I offer, what projects I have
-        completed, and the most efficient way to get into contact with me.</h2>
+        <section class="home-nav">
+          <nav class="nav-bar">
+            <ul class="nav-container">
+              <li><a href="#intro">Intro</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <h2 class="home-info">Hi, my name is Joseph. This is my portfolio site. Below you
+            will find out who I am, what skills I offer, what projects I have
+            completed, and the most efficient way to get into contact with me.</h2>
+        </section>
+      </section>
     </section>
 
     <!-- INTRO AREA -->
     <article id="intro" class="intro-content">
 
-      <h2>Hey!</h1>
-        <p>I am Joey. I am 20 years old, born and raised in Willow Street,
-          Pennsylvania. I am a student at Thaddeus Stevens, currently
+      <h2 class="intro-header">Hey!</h2>
+      <p>I am Joey. I am 20 years old, born and raised in Willow Street,
+          Pennsylvania. I graduated from Lampeter-Strasburg highschool in 2017.
+          I am a student at Thaddeus Stevens, currently
           enrolled in the Computer Software Engineering Technologies program.
           Ever since I was a little kid, I wanted to be a software developer.
           I believe my love for technology and computers started when I was
@@ -50,15 +57,22 @@
           still have that same passion and drive for learning about technology
           today.</p>
 
-        <p>Going to Thaddeus Stevens has been an awesome privilege. I've
+      <p>Going to Thaddeus Stevens has been an awesome privilege. I've
           never been more excited about going to a class and learning. I'm
           very excited to see where my path after this program leads me.</p>
+
+      <section class="bio-pictures">
+        <img class="bio-pics" src="https://my.stevenscollege.edu/ICS/icsfs/mm/bulldog_sports.png?target=0770d81e-50b4-4d6b-a1f6-66608f007657"
+        alt="Thaddeus Stevens logo.">
+        <img class="bio-pics" src="pictures/graduation.jpg"
+        alt="Joe Zimmerman at highschool graduation.">
+      </section>
     </article>
 
     <!-- SKILLS AREA -->
     <article id="skills" class="skills-content">
 
-      <h2>What skill I offer</h2>
+      <h2 class="skills-header">What skills I offer</h2>
       <ul>
         <li>A solid understanding of git and GitHub.</li>
         <li>An understanding of a number of workflows.</li>
@@ -95,7 +109,7 @@
     <article id="projects" class="projects-content">
       <h2>My Projects</h2>
 
-      <section>
+      <section class="project-description css-layout">
         <h3>CSS Layouts</h3>
         <p>The task at hand was to recreate snapshots of websites using just CSS
         and HTML. This taught the importance of using semantic HTML, and to make
@@ -103,7 +117,7 @@
         <a href="https://github.com/jczimmerman/more-css-practice">here</a>.</p>
       </section>
 
-      <section>
+      <section class="project-description responsive-layout">
         <h3>Responsive Challenges</h3>
         <p>The task this time was to use the given HTML to make a responsive page.
         We could only add rulesets in media queries that we made. This helped to
