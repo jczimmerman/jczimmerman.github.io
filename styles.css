@@ -2,7 +2,6 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
 }
 body,
 html,
@@ -10,9 +9,13 @@ main,
 .home-content {
   height: 100%;
 }
+html {
+  background-color: #fff;
+}
 body {
   background-color: #EEEEEE;
-  margin: 0px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 /* GENERAL SECTION SPACING */
 .intro-content,
@@ -47,6 +50,7 @@ body {
   text-decoration: none;
   background-color: rgba(20, 20, 20, 0.1);
   padding: 0.5rem;
+  font-family: "Shanti", sans-serif;
 
   /* BORDER */
   border-radius: 0.1rem;
@@ -82,9 +86,12 @@ body {
 .home-heading {
   color: #eeeeee;
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   margin-top: 3rem;
   margin-bottom: 0.5rem;
+  text-align: center;
+  text-shadow: 0rem 0rem 0.2rem black;
+  font-family: "Roboto", sans-serif;
 }
 .home-subheading {
   text-align: center;
@@ -92,9 +99,11 @@ body {
   font-size: 2rem;
   margin: 0;
   text-transform: uppercase;
+  text-shadow: 0rem 0rem 0.1rem black;
   font-weight: 100;
   border-top: thin solid #eeeeee;
   width: 70%;
+  font-family: "Palanquin", sans-serif;
 }
 .home-organization {
   display: flex;
@@ -103,6 +112,7 @@ body {
 .home-info {
   color: #ffffff;
   background-color: #eeeeee;
+  font-family: "Shanti", sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   width: 80%;
   /* Background */
@@ -125,6 +135,7 @@ body {
   font-size: 1rem;
 }
 .intro-header {
+  font-family: "Roboto", sans-serif;
   width: 100%;
   padding: 0.3rem 0.7rem 0.3rem 0.7rem;
   margin-top: 0;
@@ -149,6 +160,9 @@ body {
   border-radius: 1px;
   max-width: 70%;
 }
+.readable-content {
+  font-family: "Shanti", sans-serif;
+}
 /* SKILLS CONTENT */
 .skills-content {
   border-top: 0.5rem solid #676767;
@@ -158,6 +172,9 @@ body {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color: #cccccc;
+}
+.skills-header {
+  font-family: "Roboto", sans-serif;
 }
 .image-list {
   background-color: #b3b3b3;
@@ -195,8 +212,16 @@ body {
 .responsive-layout {
   margin-top: 1rem;
 }
+.projects-header {
+  font-family: "Roboto", sans-serif;
+}
+.sub-heading {
+  font-family: "Palanquin", sans-serif;
+}
 /* CONTACT CONTENT */
-
+.contact-header {
+  font-family: "Roboto", sans-serif;
+}
 /** MEDIUM STYLES **/
 @media only screen and (min-width: 600px) {
   .home-organization {
@@ -229,5 +254,23 @@ body {
   }
   .sub-heading {
     font-size: 2rem;
+  }
+}
+
+/** LARGE STYLES **/
+@media only screen and (min-width: 950px) {
+  .home-pic {
+    display: block;
+    height: 50%;
+    position: relative;
+    margin-left: 1rem;
+    border: .5rem solid #676767;
+    border-radius: 50%;
+  }
+  .home-organization {
+    align-items: center;
+  }
+  .home-heading {
+    font-size: 5rem;
   }
 }
