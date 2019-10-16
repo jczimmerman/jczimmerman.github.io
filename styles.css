@@ -140,7 +140,6 @@ body {
 }
 .bio-pictures {
   display: flex;
-  width: 100%;
 }
 .first-pic {
   border-top-right-radius: 0;
