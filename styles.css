@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
 }
+
 /* GENERAL SECTION SPACING */
 .intro-content,
 .skills-content,
@@ -30,6 +31,7 @@ body {
   border-top: 0.5rem solid #676767;
   color: #eeeeee;
 }
+
 /* NAV ITEMS */
 .nav-bar {
   width: 100%;
@@ -61,6 +63,7 @@ body {
   background-color: rgba(20 ,20 ,20, 0.5);
   box-shadow: 0px 7px 7px rgba(20, 20, 20, 0.2)
 }
+
 /* HOME ITEMS */
 .home-content {
   display: flex;
@@ -74,11 +77,13 @@ body {
   align-items: center;
   width: 100%;
   height: 50%;
+
   /* Background */
   background-image: url(pictures/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   /* Border */
   border-bottom: 0.8rem solid #595959;
 }
@@ -114,6 +119,7 @@ body {
   font-family: "Shanti", sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   width: 80%;
+
   /* Background */
   background-color: #d8d8d8;
   border-top: 0.5rem solid #676767;
@@ -128,6 +134,7 @@ body {
 .home-pic {
   display: none;
 }
+
 /* INTRO CONTENT */
 .intro-content p {
   font-size: 1rem;
@@ -160,6 +167,7 @@ body {
 .readable-content {
   font-family: "Shanti", sans-serif;
 }
+
 /* SKILLS CONTENT */
 .skills-content {
   border-top: 0.5rem solid #676767;
@@ -215,10 +223,12 @@ body {
 .sub-heading {
   font-family: "Palanquin", sans-serif;
 }
+
 /* CONTACT CONTENT */
 .contact-header {
   font-family: "Roboto", sans-serif;
 }
+
 /** MEDIUM STYLES **/
 @media only screen and (min-width: 600px) {
   .home-organization {
