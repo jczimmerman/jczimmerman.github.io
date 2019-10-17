@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 body,
@@ -113,7 +113,6 @@ body {
 }
 .home-organization {
   display: flex;
-  flex-direction: row;
 }
 .home-info {
   color: #ffffff;
@@ -172,10 +171,9 @@ body {
 }
 .readable-content {
   font-family: "Shanti", sans-serif;
-
 }
 
-.intro-words{
+.intro-words {
   border-top: 0.1rem solid #A4B5BF;
   background-color: #3e4857;
   padding: 0.5rem;
@@ -199,7 +197,6 @@ body {
   border-top: 0.2rem solid #A4B5BF;
   padding: 0.2rem;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
