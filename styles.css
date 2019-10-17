@@ -10,10 +10,10 @@ main,
   height: 100%;
 }
 html {
-  background-color: #fff;
+  background-color: #393e46;
 }
 body {
-  background-color: #EEEEEE;
+  background-color: #222831;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -26,8 +26,8 @@ body {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 2rem;
-  background-color: #cccccc;
-  border-top: 0.5rem solid #676767;
+  background-color: #222831;
+  border-top: 0.5rem solid #A4B5BF;
   color: #eeeeee;
 }
 /* NAV ITEMS */
@@ -41,20 +41,22 @@ body {
   justify-content: space-between;
   padding: 1rem;
   width: 100%;
+
 }
 .nav-container li {
   list-style: none;
+
 }
 .nav-container a {
   color: white;
   text-decoration: none;
-  background-color: rgba(20, 20, 20, 0.1);
+  background-color: #3e4857;
   padding: 0.5rem;
   font-family: "Shanti", sans-serif;
 
   /* BORDER */
   border-radius: 0.1rem;
-  border-top: 3px solid #C7C7C7;
+  border-top: 3px solid #A4B5BF;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1)
 }
 .nav-container a:hover {
@@ -80,7 +82,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /* Border */
-  border-bottom: 0.8rem solid #595959;
+  border-bottom: 0.8rem solid #A4B5BF;
 }
 .home-heading {
   color: #eeeeee;
@@ -100,7 +102,7 @@ body {
   text-transform: uppercase;
   text-shadow: 0rem 0rem 0.1rem black;
   font-weight: 100;
-  border-top: thin solid #eeeeee;
+  border-top: thin solid #A4B5BF;
   width: 70%;
   font-family: "Palanquin", sans-serif;
 }
@@ -110,13 +112,13 @@ body {
 }
 .home-info {
   color: #ffffff;
-  background-color: #eeeeee;
+  background-color: #3e4857;
   font-family: "Shanti", sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   width: 80%;
   /* Background */
-  background-color: #d8d8d8;
-  border-top: 0.5rem solid #676767;
+  background-color: #3e4857;
+  border-top: 0.5rem solid #A4B5BF;
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
 }
@@ -140,6 +142,7 @@ body {
 }
 .bio-pictures {
   display: flex;
+  padding-top: 2rem;
 }
 .first-pic {
   border-top-right-radius: 0;
@@ -150,32 +153,42 @@ body {
   border-bottom-left-radius: 0;
 }
 .bio-pictures div {
+  display: flex;
+  justify-content: center;
   width: 50%;
+
 }
 .bio-pics {
-  border-top: 0.2rem solid #676767;
+  border-top: 0.2rem solid #A4B5BF;
   border-radius: 1px;
   max-width: 70%;
 }
 .readable-content {
   font-family: "Shanti", sans-serif;
+
+}
+
+.intro-words{
+  border-top: 0.1rem solid #A4B5BF;
+  background-color: #3e4857;
+  padding: 0.5rem;
 }
 /* SKILLS CONTENT */
 .skills-content {
-  border-top: 0.5rem solid #676767;
+  border-top: 0.5rem solid #A4B5BF;
   color: #eeeeee;
   margin-top: 2rem;
   padding: 1rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background-color: #cccccc;
+  background-color: #222831;
 }
 .skills-header {
   font-family: "Roboto", sans-serif;
 }
 .image-list {
-  background-color: #b3b3b3;
-  border-top: 0.2rem solid #676767;
+  background-color: #3e4857;
+  border-top: 0.2rem solid #A4B5BF;
   padding: 0.2rem;
   display: flex;
   flex-direction: row;
@@ -196,8 +209,8 @@ body {
 
 /* PROJECTS CONTENT */
 .project-description {
-  border-top: 0.1rem solid #676767;
-  background-color: #b3b3b3;
+  border-top: 0.1rem solid #A4B5BF;
+  background-color: #3e4857;
   padding: 0.5rem;
 }
 .project-description h3 {
@@ -261,7 +274,7 @@ body {
     height: 50%;
     position: relative;
     margin-left: 1rem;
-    border: .5rem solid #676767;
+    border: .5rem solid #A4B5BF;
     border-radius: 50%;
   }
   .home-organization {
