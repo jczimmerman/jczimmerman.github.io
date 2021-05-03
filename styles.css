@@ -58,7 +58,7 @@ body {
   box-shadow: 2px 7px 5px 2px #171717;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 
 .main-header,
@@ -82,10 +82,11 @@ body {
 }
 
 .contact-list {
+  display: flex;
   justify-content: center;
   flex-direction: row;
   margin-top: 0rem;
-  display: flex;
+  padding: 0rem;
 }
 
 .contact-list li {
@@ -93,7 +94,8 @@ body {
   list-style: none;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  width: 30%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .contact-list li a {
@@ -101,11 +103,13 @@ body {
   border-radius: 0.2rem;
   box-shadow: 2px 3px 3px 2px #171717;
   color: #ccc;
+  display: inline-block;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   text-decoration: none;
+  width: 11rem;
 }
 
 .contact-list li a:hover {
@@ -119,5 +123,41 @@ body {
   box-shadow: 2px 3px 3px 2px #171717;
   height: 12rem;
   width: 12rem;
+}
+
+
+/** BIO STYLES **/
+.bio-header,
+.bio-article-header,
+.bio-article-content {
+  color: #ccc;
+  font-family: monospace;
+}
+
+.bio-header {
+  font-size: 2.8rem;
+  margin-bottom: 0rem;
+}
+
+.bio-article {
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 2px 2px #171717;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.bio-article-header {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bio-article-content {
+  color: #adadad;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
 }
 
