@@ -25,8 +25,9 @@ body {
   text-align: center;
 }
 
-.nav-list-item {
-  width: 30%;
+.nav-list-item,
+.current-nav {
+  width: 24%;
 }
 
 .nav-list-item a {
@@ -49,6 +50,22 @@ body {
 
 .nav-list-item a:hover {
   background-color: #5e51a2;
+}
+
+.current-nav p {
+  background-color: #403d4e;
+  border-radius: 0.3rem;
+  box-shadow: 2px 4px 2px 1px #171717;
+  color: #ccc;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-transform: uppercase;
 }
 
 /** MAIN CONTENT STYLES **/
