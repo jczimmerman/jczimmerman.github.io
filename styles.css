@@ -152,7 +152,7 @@ body {
 }
 
 .bio-header {
-  font-size: 2.8rem;
+  font-size: 2rem;
   margin-bottom: 0rem;
 }
 
@@ -165,16 +165,96 @@ body {
 }
 
 .bio-article-header {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 .bio-article-content {
   color: #adadad;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
+
+
+/** PROJECTS STYLES **/
+@keyframes fade-in {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+
+.projects-header,
+.project-desc,
+.project-butn {
+  color: #ccc;
+  font-family: monospace;
+}
+
+.projects-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#projects-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 2px 2px #171717;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#item-1 {
+  background-image: url('./pictures/minesweeper.png');
+}
+
+#item-2 {
+  background-image: url('./pictures/portal.png');
+}
+
+#item-3 {
+  background-image: url('./pictures/nursing-home.png');
+}
+
+#item-4 {
+  background-image: url('./pictures/coffee-shop.png');
+}
+
+.project-box:hover,
+#item-1:hover,
+#item-2:hover,
+#item-3:hover,
+#item-4:hover {
+  background-image: none;
+}
+
+.project-box:hover .project-desc,
+.project-box:hover .project-butn {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.project-desc,
+.project-butn {
+  opacity: 0%;
+  color: #adadad;
+  margin: 1rem;
+}
+
+
+
 
