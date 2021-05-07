@@ -325,6 +325,11 @@ body {
 
 /** MOBILE MEDIA QUERIES **/
 @media only screen and (max-width: 650px) {
+  /** GLOBAL STYLES **/
+  body {
+    width: 90%;
+  }
+
   /** NAV BAR STYLES **/
   .nav-list {
     flex-direction: column;
